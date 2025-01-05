@@ -15,7 +15,7 @@ Bu proje içindeki uygulama 3 aşamadan oluşuyor ve kullanıcı tercihine göre
 - Kullanıcıdan bu sayıyı tahmin etmesi istenir.
 - Kullanıcının her tahmininde, bilgisayarın seçtiği sayıya yakınlığı kontrol edilir ve ipucu verilir(daha yüksek veya daha düşük olarak).
 - Kullanıcının 5 tahmin hakkı vardır.
-- Kullanıcı doğru tahminde bulunursa oyunu biter.
+- Kullanıcı doğru tahminde bulunursa oyun biter.
 ---
 ### 2. Hesap Makinesi
 
