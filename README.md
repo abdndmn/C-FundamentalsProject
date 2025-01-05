@@ -50,6 +50,23 @@ Bu proje içindeki uygulama3 aşamadan oluşuyor ve kullanıcı tercihine göre 
 - Notların geçerli olup olmadığını kontrol edin (0-100 aralığında olmalıdır). Geçersiz bir not girildiğinde kullanıcıya hata mesajı verin ve programı sonlandırın.
 
 - Ortalama notun harf karşılığını göstermek için aşağıdaki harf notu tablosunu kullanın:
+  >90-100: AA
+  >
+  >85-89:  BA
+  >
+  >80-84:  BB
+  >
+  >75-79:  CB
+  >
+  >70-74:  CC
+  >
+  >65-69:  DC
+  >
+  >60-64:  DD
+  >
+  >55-59:  FD
+  >
+  >0-54:   FF
 
 **Programı yazarken dikkat etmeniz gereken noktalar:**
 
@@ -68,9 +85,9 @@ Bu projeyi çalıştırmak için **[Visual Studio](https://visualstudio.microsof
 
 Visual Studio uygulamasını açtıktan sonra aşağıdaki adımları izlemeniz gereklidir:
 1.  **Clone a Repository** seçeneğine tıklayıp **[GitHub](https://github.com/abdndmn/C-FundamentalsProject.git)** URL'sini ilgili bölüme yapıştırın.
-2. URL'yi klonladıktan sonra **'Progam.cs'** dosyasını açmalısınız.
-3. Açılan kodu çalıştırmak için **F5** tuşuna basın.
-4. Konsol ekranındaki yönergeleri takip ederek uygulamalar arasında seçim yapıp istediğiniz uygulamayı çalıştırabilirsiniz.
+3. URL'yi klonladıktan sonra **'Progam.cs'** dosyasını açmalısınız.
+4. Açılan kodu çalıştırmak için **F5** tuşuna basın.
+5. Konsol ekranındaki yönergeleri takip ederek uygulamalar arasında seçim yapıp istediğiniz uygulamayı çalıştırabilirsiniz.
 ---
 
 
