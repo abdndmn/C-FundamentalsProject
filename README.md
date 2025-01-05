@@ -24,8 +24,11 @@ Bu proje içindeki uygulama3 aşamadan oluşuyor ve kullanıcı tercihine göre 
 - Kullanıcıya ikinci sayıyı girmesini isteyin.
 - Kullanıcıya yapmak istediği işlemi seçmesini isteyin:
   > Toplama için +
+  > 
   > Çıkarma için -
+  > 
   > Çarpma için *
+  > 
   > Bölme için /
 - Kullanıcının seçimine göre uygun işlemi gerçekleştirip sonucu ekrana yazdırın. Eğer bölme işlemi seçildiyse, sıfıra bölme hatası durumunu kontrol edin.
 
