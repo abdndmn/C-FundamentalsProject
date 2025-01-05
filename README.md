@@ -1,28 +1,26 @@
 # C# Fundamentals Project
 
 
-Bu proje içindeki uygulama3 aşamadan oluşuyor ve kullanıcı tercihine göre çalıştırmak istediği programı seçip *Konsol Ekranında* çalıştırabiliyor.
+Bu proje içindeki uygulama 3 aşamadan oluşuyor ve kullanıcı tercihine göre çalıştırmak istediği programı seçip *Konsol Ekranında* çalıştırabiliyor.
 
 **Projenin İçerdiği Uygulamalar**
 
-1.  Rastgele Sayı Bulma Oyunu
+1. Rastgele Sayı Bulma Oyunu
 2. Hesap Makinesi
 3. Ortalama Hesaplama
 
 ### 1. Rastgele Sayı Bulma Oyunu
 
-- Bilgisayar bir rastgele sayı belirlesin (örneğin 1 ile 100 arasında).
-- Kullanıcıdan bu sayıyı tahmin etmesini isteyin.
-- Kullanıcı her tahmininde, bilgisayarın seçtiği sayıya yakınlığını kontrol edin ve ipucu verin (daha yüksek veya daha düşük).
-- Kullanıcının 5 canı olsun (5 tahmin hakkı). Her tahmin sonrası kalan canını gösterin.
-- Kullanıcı doğru tahminde bulunursa oyunu bitirin ve tebrik edin.
-- Eğer 5 tahmin hakkı dolarsa, doğru sayıyı gösterin ve oyunu bitirin.
+- Bilgisayar 1 ile 100 arasında rastgele bir sayı belirler. 
+- Kullanıcıdan bu sayıyı tahmin etmesi istenir.
+- Kullanıcının her tahmininde, bilgisayarın seçtiği sayıya yakınlığı kontrol edilir ve ipucu verilir(daha yüksek veya daha düşük olarak).
+- Kullanıcının 5 tahmin hakkı vardır.
+- Kullanıcı doğru tahminde bulunursa oyunu biter.
 ---
 ### 2. Hesap Makinesi
 
-- Kullanıcıya ilk sayıyı girmesini isteyin.
-- Kullanıcıya ikinci sayıyı girmesini isteyin.
-- Kullanıcıya yapmak istediği işlemi seçmesini isteyin:
+- Kullanıcıdan iki adet sayı girilmesi istenir.
+- Kullanıcıdan yapmak istediği işlemi seçmesini istenir
   > Toplama için +
   > 
   > Çıkarma için -
@@ -30,29 +28,24 @@ Bu proje içindeki uygulama3 aşamadan oluşuyor ve kullanıcı tercihine göre 
   > Çarpma için *
   > 
   > Bölme için /
-- Kullanıcının seçimine göre uygun işlemi gerçekleştirip sonucu ekrana yazdırın. Eğer bölme işlemi seçildiyse, sıfıra bölme hatası durumunu kontrol edin.
 
-**Programı yazarken dikkat etmeniz gereken noktalar:**
+**Program yazılırken dikkat edilen noktalar:**
 
-> Kullanıcı girdilerini doğru bir şekilde almak için **Console.ReadLine()** ve **Convert.ToInt32()** gibi metodları kullanın.
+> Kullanıcı girdilerini doğru bir şekilde almak için **Console.ReadLine()** ve **Convert.ToInt32()** gibi metodları kullanılmıştır.
 
-> İşlem seçiminde **if-else** veya **switch-case** yapısını kullanarak uygun işlemi gerçekleştirin.
+> İşlem seçiminde **if-else** yapısı kullanılmıştır.
 
 > Bölme işlemi yapılırken sıfıra bölme hatasını kontrol edin ve kullanıcıya uygun bir mesaj gösterin.
 ---
 ### 3. Ortalama Hesaplama
 
-- Kullanıcıdan birinci ders notunu girmesini isteyin.
+- Kullanıcıdan ders notlarını girmesi istenir.
 
-- Kullanıcıdan ikinci ders notunu girmesini isteyin.
+- Girdiği notların ortalamasını hesaplanır.
 
-- Kullanıcıdan üçüncü ders notunu girmesini isteyin.
+- Girilen notların 0-100 aralığında olması kontrol edilir.
 
-- Girdiği notların ortalamasını hesaplayın ve ekrana yazdırın.
-
-- Notların geçerli olup olmadığını kontrol edin (0-100 aralığında olmalıdır). Geçersiz bir not girildiğinde kullanıcıya hata mesajı verin ve programı sonlandırın.
-
-- Ortalama notun harf karşılığını göstermek için aşağıdaki harf notu tablosunu kullanın:
+- Ortalama notun harf karşılığını göstermek için aşağıdaki harf notu tablosu kullanılır:
   >90-100: AA
   >
   >85-89:  BA
@@ -71,15 +64,15 @@ Bu proje içindeki uygulama3 aşamadan oluşuyor ve kullanıcı tercihine göre 
   >
   >0-54:   FF
 
-**Programı yazarken dikkat etmeniz gereken noktalar:**
+**Program yazılırken dikkat edilen noktalar::**
 
-> Kullanıcı girdilerini doğru bir şekilde almak için **Console.ReadLine()** ve **Convert.ToDouble()** gibi metodları kullanın.
+> Kullanıcı girdilerini doğru bir şekilde almak için **Console.ReadLine()** ve **Convert.ToDouble()** gibi metodlar kullanılır.
 
-> Notların geçerliliğini kontrol etmek için **if** yapısını kullanın.
+> Notların geçerliliğini kontrol etmek için **if** yapısı kullanılır.
 
-> Ortalama hesaplamasını doğru bir şekilde yapmak için **double** türünde bir değişken kullanın.
+> Ortalama hesaplamasını doğru bir şekilde yapmak için **double** türünde değişken kullanılır.
 
-> Harf notu tablosunu kullanarak kullanıcının aldığı ortalamaya karşılık gelen harf notunu belirleyin ve ekrana yazdırın.
+> Harf notu tablosunu kullanarak kullanıcının aldığı ortalamaya karşılık gelen harf notunu belirlenir ve yazdırılır.
 ---
 
 ## Projeyi Çalıştırma
